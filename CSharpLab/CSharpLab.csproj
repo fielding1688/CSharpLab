@@ -45,6 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="A00_Basis\A00_BasisDemo.cs" />
     <Compile Include="A01_Generics\ErrorCodeEnum.cs" />
     <Compile Include="A01_Generics\A01_Generics_Demo.cs" />
     <Compile Include="A01_Generics\Product.cs" />
