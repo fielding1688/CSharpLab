@@ -1,5 +1,6 @@
 ﻿using CSharpLab.A00_Basis;
 using CSharpLab.A01_Generics;
+using CSharpLab.A02;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,9 @@ namespace CSharpLab
     {
         static void Main(string[] args)
         {
-            A00_Basis();
+            //A00_Basis();
             //A01_Generics();
+            A02_Delegate();
         }
 
         private static void A00_Basis()
@@ -39,5 +41,10 @@ namespace CSharpLab
             var c = JsonHelper.JsonToObject<APIData<Product, int>>("a");
         }
 
+        private static void A02_Delegate()
+        {
+            var a = new A02_Delegate();
+            a.Demo();
+        }
     }
 }
