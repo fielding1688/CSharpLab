@@ -52,9 +52,11 @@
     <Compile Include="A01_Generics\APIData.cs" />
     <Compile Include="A01_Generics\JsonHelper.cs" />
     <Compile Include="A01_Generics\IAPIData.cs" />
+    <Compile Include="A02\A02_Func.cs" />
     <Compile Include="A02\BookFilter.cs" />
     <Compile Include="A02\A02_Delegate.cs" />
     <Compile Include="A02\Book.cs" />
+    <Compile Include="A02\BookHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

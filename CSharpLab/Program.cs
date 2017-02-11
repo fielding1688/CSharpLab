@@ -15,7 +15,8 @@ namespace CSharpLab
         {
             //A00_Basis();
             //A01_Generics();
-            A02_Delegate();
+            //A02_Delegate();
+            A02_Func();
         }
 
         private static void A00_Basis()
@@ -46,5 +47,13 @@ namespace CSharpLab
             var a = new A02_Delegate();
             a.Demo();
         }
+        private static void A02_Func()
+        {
+            var a = new A02_Func();
+            a.Demo();
+        }
+
+        
+
     }
 }
