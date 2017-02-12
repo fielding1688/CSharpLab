@@ -52,6 +52,7 @@
     <Compile Include="A01_Generics\APIData.cs" />
     <Compile Include="A01_Generics\JsonHelper.cs" />
     <Compile Include="A01_Generics\IAPIData.cs" />
+    <Compile Include="A02\A02_LambdaExpression.cs" />
     <Compile Include="A02\A02_Func.cs" />
     <Compile Include="A02\BookFilter.cs" />
     <Compile Include="A02\A02_Delegate.cs" />

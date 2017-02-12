@@ -16,7 +16,8 @@ namespace CSharpLab
             //A00_Basis();
             //A01_Generics();
             //A02_Delegate();
-            A02_Func();
+            //A02_Func();
+            A02_LambdaExpression();
         }
 
         private static void A00_Basis()
@@ -53,7 +54,11 @@ namespace CSharpLab
             a.Demo();
         }
 
-        
+        private static void A02_LambdaExpression()
+        {
+            var a = new A02_LambdaExpression();
+            a.Demo();
+        }
 
     }
 }
