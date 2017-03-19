@@ -12,6 +12,8 @@ namespace CSharpLab.A02
         public string Name { get; set; }
         public int Price { get; set; }
         public string Category { get; set; }
+
+        public bool OnSell { get; set; }
     }
 
    

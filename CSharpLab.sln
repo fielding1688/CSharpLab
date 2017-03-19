@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLab", "CSharpLab\CSharpLab.csproj", "{44F4FF35-5F8D-48A2-AF73-07D652672954}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLabTests", "CSharpLabTests\CSharpLabTests.csproj", "{F80EDC73-3FC2-44E9-8D23-A2CB440BCEC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpLabTests1", "CSharpLabTests1\CSharpLabTests1.csproj", "{2360A0B4-206D-4981-B89A-4888A00DD779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F80EDC73-3FC2-44E9-8D23-A2CB440BCEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F80EDC73-3FC2-44E9-8D23-A2CB440BCEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F80EDC73-3FC2-44E9-8D23-A2CB440BCEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2360A0B4-206D-4981-B89A-4888A00DD779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2360A0B4-206D-4981-B89A-4888A00DD779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2360A0B4-206D-4981-B89A-4888A00DD779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2360A0B4-206D-4981-B89A-4888A00DD779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
