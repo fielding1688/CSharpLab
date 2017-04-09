@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLab.A02
+namespace CSharpLab.A02_Delegate
 {
-    public class A02_Delegate
+    public class DelegateDemo
     {
         public delegate string MyDelegate(int x);
 

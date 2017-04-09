@@ -68,13 +68,15 @@
     <Compile Include="A01_Generics\APIData.cs" />
     <Compile Include="A01_Generics\JsonHelper.cs" />
     <Compile Include="A01_Generics\IAPIData.cs" />
-    <Compile Include="A02\A02_Delegate.cs" />
-    <Compile Include="A02\A02_Func.cs" />
-    <Compile Include="A02\A02_LambdaExpression.cs" />
-    <Compile Include="A02\BookFilter.cs" />
+    <Compile Include="A02_Delegate\DelegateDemo.cs" />
+    <Compile Include="A02_Delegate\A02_Func.cs" />
+    <Compile Include="A02_Delegate\A02_LambdaExpression.cs" />
+    <Compile Include="A02_Delegate\BookFilter.cs" />
     <Compile Include="A02_Delegate\Book.cs" />
     <Compile Include="A02_Delegate\BookHelper.cs" />
     <Compile Include="A03_Constructor\A03_Constructor_Demo.cs" />
+    <Compile Include="A04_Dictionary\ImmutableObjects.cs" />
+    <Compile Include="A04_Dictionary\MyClassSpecialComparer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

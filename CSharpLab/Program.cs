@@ -1,6 +1,6 @@
 ﻿using CSharpLab.A00_Basis;
 using CSharpLab.A01_Generics;
-using CSharpLab.A02;
+using CSharpLab.A02_Delegate;
 using CSharpLab.A03_Constructor;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,37 @@ namespace CSharpLab
     {
         static void Main(string[] args)
         {
+            List<Student> t = new List<Student>()
+            {
+                new Student(){
+                    Name = "aa",
+                    Course = new List<Course>()  {
+                        new Course(){CourseName = "a1"},
+                    }
+                },
+                new Student() {
+                    Name = "bb",
+                    Course = new List<Course>(){
+                        new Course(){CourseName = "b1"},
+                        new Course(){CourseName = "b2"},
+                    }
+                },
+                 new Student() {
+                    Name = "cc",
+                    Course = new List<Course>(){
+                        new Course(){CourseName = "c1"},
+                        new Course(){CourseName = "c2"},
+                        new Course(){CourseName = "c3"},
+                    }
+                }
+            };
+            List<Course> c = new List<Course>();
+            var data1 = t.Select(x => x.Course).ToList();
+            foreach (var item in data1)
+            {
+                c.AddRange(item);
+            }
+
             //A00_Basis();
             //A01_Generics();
             //A02_Delegate();
@@ -60,7 +91,7 @@ namespace CSharpLab
 
         private static void A02_Delegate()
         {
-            var a = new A02_Delegate();
+            var a = new DelegateDemo();
             a.Demo();
         }
         private static void A02_Func()
@@ -83,5 +114,16 @@ namespace CSharpLab
             a.baseDemo();
         }
 
+    }
+
+    public class Student
+    {
+        public string Name { get; set; }
+        public List<Course> Course { get; set; }
+    }
+
+    public class Course
+    {
+        public string CourseName { get; set; }
     }
 }
