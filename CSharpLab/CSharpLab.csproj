@@ -77,6 +77,8 @@
     <Compile Include="A03_Constructor\A03_Constructor_Demo.cs" />
     <Compile Include="A04_Dictionary\ImmutableObjects.cs" />
     <Compile Include="A04_Dictionary\MyClassSpecialComparer.cs" />
+    <Compile Include="A05_Enum\A05_Enum_Demo.cs" />
+    <Compile Include="A05_Enum\Week.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

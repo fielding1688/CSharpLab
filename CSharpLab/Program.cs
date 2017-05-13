@@ -2,6 +2,7 @@
 using CSharpLab.A01_Generics;
 using CSharpLab.A02_Delegate;
 using CSharpLab.A03_Constructor;
+using CSharpLab.A05_Enum;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,7 +51,8 @@ namespace CSharpLab
             //A02_Delegate();
             //A02_Func();
             //A02_LambdaExpression();
-            A03_Constructor_Demo();
+            //A03_Constructor_Demo();
+            A05_Enum_Demo();
         }
 
         private static bool aaa(Book x)
@@ -112,6 +114,12 @@ namespace CSharpLab
             a.繼承Demo();
             a.thisDemo();
             a.baseDemo();
+        }
+
+        private static void A05_Enum_Demo()
+        {
+            var a = new A05_Enum_Demo();
+            a.demo();
         }
 
     }
