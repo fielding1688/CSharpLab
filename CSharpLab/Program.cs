@@ -1,5 +1,6 @@
 ﻿using CSharpLab.A00_Basis;
 using CSharpLab.A01_Generics;
+using CSharpLab.A01_Generics.Covariance;
 using CSharpLab.A02_Delegate;
 using CSharpLab.A03_Constructor;
 using CSharpLab.A05_Enum;
@@ -16,45 +17,14 @@ namespace CSharpLab
     {
         static void Main(string[] args)
         {
-            List<Student> t = new List<Student>()
-            {
-                new Student(){
-                    Name = "aa",
-                    Course = new List<Course>()  {
-                        new Course(){CourseName = "a1"},
-                    }
-                },
-                new Student() {
-                    Name = "bb",
-                    Course = new List<Course>(){
-                        new Course(){CourseName = "b1"},
-                        new Course(){CourseName = "b2"},
-                    }
-                },
-                 new Student() {
-                    Name = "cc",
-                    Course = new List<Course>(){
-                        new Course(){CourseName = "c1"},
-                        new Course(){CourseName = "c2"},
-                        new Course(){CourseName = "c3"},
-                    }
-                }
-            };
-            List<Course> c = new List<Course>();
-            var data1 = t.Select(x => x.Course).ToList();
-            foreach (var item in data1)
-            {
-                c.AddRange(item);
-            }
-
             //A00_Basis();
-            //A01_Generics();
+            A01_Generics();
             //A02_Delegate();
             //A02_Func();
             //A02_LambdaExpression();
             //A03_Constructor_Demo();
             //A05_Enum_Demo();
-            A06_Cache_Demo();
+            //A06_Cache_Demo();
         }
 
         private static bool aaa(Book x)
@@ -91,6 +61,10 @@ namespace CSharpLab
             var cc = JsonHelper.ToJson(a);
 
             var c = JsonHelper.JsonToObject<APIData<Product, int>>("a");
+
+            var bb = new A01B_Covariance();
+            bb.test();
+
         }
 
         private static void A02_Delegate()
