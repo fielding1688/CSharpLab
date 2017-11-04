@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CSharpLab.A05_Enum
 {
-    public class A05_Enum_Demo
+    public class A06_Enum_Demo
     {
         public void demo()
         {
