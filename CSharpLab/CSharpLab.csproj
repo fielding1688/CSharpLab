@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="A00_Basis\A00_BasisDemo.cs" />
+    <Compile Include="A01_Generics\Covariance\LevelPool.cs" />
     <Compile Include="A01_Generics\Covariance\Level.cs" />
     <Compile Include="A01_Generics\Covariance\A01B_Covariance.cs" />
     <Compile Include="A01_Generics\ErrorCodeEnum.cs" />
