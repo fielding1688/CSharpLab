@@ -63,7 +63,8 @@ namespace CSharpLab
             var c = JsonHelper.JsonToObject<APIData<Product, int>>("a");
 
             var bb = new A01B_Covariance();
-            bb.test();
+            bb.testCovariant();
+            bb.testContravariant();
 
         }
 
