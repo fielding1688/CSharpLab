@@ -5,6 +5,7 @@ using CSharpLab.A02_Delegate;
 using CSharpLab.A03_Constructor;
 using CSharpLab.A05_Enum;
 using CSharpLab.A06_Cache;
+using CSharpLab.A07_Task;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,13 +19,14 @@ namespace CSharpLab
         static void Main(string[] args)
         {
             //A00_Basis();
-            A01_Generics();
+            //A01_Generics();
             //A02_Delegate();
             //A02_Func();
             //A02_LambdaExpression();
             //A03_Constructor_Demo();
             //A05_Enum_Demo();
             //A06_Cache_Demo();
+            A07_Task_Demo();
         }
 
         private static bool aaa(Book x)
@@ -102,6 +104,12 @@ namespace CSharpLab
         private static void A06_Cache_Demo()
         {
             var a = new A06_Cache_Demo();
+            a.demo();
+        }
+
+        private static void A07_Task_Demo()
+        {
+            var a = new A07_Task_Demo();
             a.demo();
         }
 

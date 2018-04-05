@@ -85,6 +85,10 @@
     <Compile Include="A05_Enum\Week.cs" />
     <Compile Include="A06_Cache\A06_Cache_Demo.cs" />
     <Compile Include="A06_Cache\CacheManager.cs" />
+    <Compile Include="A07_Task\A07_Task_Demo.cs" />
+    <Compile Include="A07_Task\CustomTaskScheduler.cs" />
+    <Compile Include="A07_Task\LimitNumberOfSimultaneousTasks.cs" />
+    <Compile Include="A07_Task\LongRunning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
